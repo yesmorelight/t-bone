@@ -1,0 +1,116 @@
+/*  GEN  */
+body{margin:0;background-color:#D0E4F2;overflow:hidden;}
+h1{font-family:'Oswald',sans-serif; color: #0D2625;font-size: 1.8rem;}
+p{font-family:'Oswald',sans-serif; margin:0;font-size: 2rem;}
+#presentClick{cursor:pointer;transition: transform 0.5s, margin-top 0.5s, opacity 1.2s;}
+#code{margin:3rem 2rem 0 2rem;font-family:'Raleway',sans-serif;font-size: 1rem;}
+
+
+/* HEAD  */
+header {
+  height: 30vh;
+  text-align: center;
+  color:#081715;
+}
+
+/* PRESENT */
+article {
+  height: 70vh;
+  position: relative;
+}
+
+.bowLeft{
+  height: 2rem;
+  width: 1rem;
+  border-radius: 10px;
+  background-color: #85A5CC;
+  
+  z-index: 3;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 1.25rem;
+  bottom: 13.8rem;
+  left: 0;
+  transform: skew(20deg);
+  
+  transition: opacity 1s;
+}
+.bowRight{
+  height: 2rem;
+  width: 1rem;
+  border-radius: 10px;
+  background-color: #85A5CC;
+  
+  z-index: 3;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 13.8rem;
+  left: 1.25rem;
+  transform: skew(-20deg);
+  
+  transition: opacity 1s;
+}
+.bowCenter {
+  height: 11rem;
+  width: 1rem;
+  background-color: #85A5CC;
+  
+  z-index: 3;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
+}
+
+.presentTop {
+  height: 2rem;
+  width: 11rem;
+  border-radius: 2px;
+  background-color: #2A3252;
+  
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 10rem;
+  left: 0;
+  
+  transition: opacity 1s;
+}
+.presentBack {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 2px;
+  background-color:#30395C;
+  
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/*  VOUCHER  */
+.voucher {
+  width: 70vw;
+  height: 23vh;
+  background-color: #30395C;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
